@@ -6,7 +6,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Rubik-Regular";
+  font-family: "Roboto-Regular";
 }
 
 a {
@@ -17,57 +17,39 @@ li {
   list-style: none;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "PlayfairDisplay-Bold";
+  font-family: "Roboto-Bold";
+  margin-bottom: 0;
+  color: var(--black-100)
 }
 
 @font-face {
-  font-family: "PlayfairDisplay-Regular";
-  src: url(../../assets/font/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+  font-family: "Roboto-Regular";
+  src: url(../../assets/font/Roboto-Regular.ttf);
 }
 
 @font-face {
-  font-family: "PlayfairDisplay-Medium";
-  src: url(../../assets/font/Playfair_Display/static/PlayfairDisplay-Medium.ttf);
+  font-family: "Roboto-Medium";
+  src: url(../../assets/font/Roboto-Medium.ttf);
 }
 
 @font-face {
-  font-family: "PlayfairDisplay-SemiBold";
-  src: url(../../assets/font/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: "PlayfairDisplay-Bold";
-  src: url(../../assets/font/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
-}
-
-@font-face {
-  font-family: "Rubik-Regular";
-  src: url(../../assets/font/Rubik/static/Rubik-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Rubik-Medium";
-  src: url(../../assets/font/Rubik/static/Rubik-Medium.ttf);
-}
-
-@font-face {
-  font-family: "Rubik-SemiBold";
-  src: url(../../assets/font/Rubik/static/Rubik-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: "Rubik-Bold";
-  src: url(../../assets/font/Rubik/static/Rubik-Bold.ttf);
+  font-family: "Roboto-Bold";
+  src: url(../../assets/font/Roboto-Bold.ttf);
 }
 
 :root {
   --primary-color: #ffbe0f;
+  --yellow-100: #FFFBD2;
   --orange-100: #f35801;
   --orange-bg-100: #f6851d;
   --silver-100: #9aa0a5;
@@ -80,3 +62,18 @@ h6 {
   --black-100: #302c2c;
   --red--100: #ff5454;
 }
+
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.is-12px {
+  font-size: 12px;
+}
+
+.is-14px {
+  font-size: 14px;
+}
+
+
