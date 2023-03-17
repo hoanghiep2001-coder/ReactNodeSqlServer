@@ -118,11 +118,27 @@
 }
 
 .menu__order {
+  gap: 12px;
+  line-height: 30px;
+}
+
+.contact {
+  gap: 4px;
+  cursor: pointer;
+}
+
+.contact__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.contact__title {
+  line-height: 30px;
 
 }
 
 .menu__order-title {
   font-family: "Roboto-Medium";
   color: var(--black-100);
+  line-height: 30px;
 }
-

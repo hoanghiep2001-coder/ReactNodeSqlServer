@@ -7,7 +7,7 @@ import phone from "../../../../assets/img/icon/phone.svg";
 import shoppingCart from "../../../../assets/img/icon/shopping-cart.svg";
 import searchIcon from "../../../../assets/img/icon/search.svg";
 import Button from "../../../Button";
-import Input from "../../../Input";
+// import Input from "../../../Input";
 import { FaUserAlt } from "react-icons/fa";
 const cb = classnames.bind(styles);
 function Navigation() {
@@ -119,7 +119,21 @@ function Navigation() {
                 </Dropdown.Menu>
               </Dropdown>
 
-              <div className={cb("menu__order")}>
+              <div className={cb("menu__order", "d-lg-flex", "align-items-lg-center")}>
+                <div
+                  className={cb(
+                    "contact",
+                    "d-lg-flex",
+                    "align-items-lg-center"
+                  )}
+                >
+                  <img
+                    className={cb("contact__icon")}
+                    src={phone}
+                    alt={"phone-Icon"}
+                  />
+                  <h3 className={cb("contact__title", "is-14px")}>1890 000</h3>
+                </div>
                 <Dropdown>
                   <Dropdown.Toggle
                     className={cb("menu__order-checkOrder")}
