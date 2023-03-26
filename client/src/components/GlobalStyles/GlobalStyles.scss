@@ -29,11 +29,21 @@ h5,
 h6 {
   font-family: "Roboto-Bold";
   margin-bottom: 0;
-  color: var(--black-100)
+  color: var(--black-100);
 }
 
 body {
   background-color: var(--silver-500);
+}
+
+body::-webkit-scrollbar {
+  border-radius: 8px;
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: var(--silver-100);
 }
 
 @font-face {
@@ -53,14 +63,14 @@ body {
 
 :root {
   --primary-color: #ffbe0f;
-  --yellow-100: #FFFBD2;
+  --yellow-100: #fffbd2;
   --orange-100: #f35801;
   --orange-bg-100: #f6851d;
   --silver-100: #9aa0a5;
   --silver-200: #858c93;
   --silver-300: #717981;
   --silver-400: #d6d9db;
-  --silver-500: #E5E5E5;
+  --silver-500: #e5e5e5;
   --silver-bg-100: #d6d9db;
   --white-100: #ffffff;
   --black-title: #404244;
@@ -84,4 +94,3 @@ body {
 .no-border {
   border: none !important;
 }
-
